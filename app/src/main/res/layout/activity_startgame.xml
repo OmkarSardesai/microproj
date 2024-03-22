@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/mainimg"
+        android:id="@+id/iv"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="WordsTest"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/wordtypingfi"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="Paragraph Test"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/paraf"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:text="Sentence Test"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/sentence"/>
+
+
+</RelativeLayout>
